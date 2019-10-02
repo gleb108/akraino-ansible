@@ -1,0 +1,12 @@
+---
+- hosts: rc_host
+  vars:
+    akraino_group: rc_host
+  roles:
+  - roles/terminate_ec2_instance
+
+- hosts: treasuremap_host
+  vars:
+    akraino_group: treasuremap_host
+  roles:
+  - roles/terminate_ec2_instance

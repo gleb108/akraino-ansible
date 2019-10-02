@@ -1,0 +1,7 @@
+---
+- hosts: rc_host
+  become: yes
+  roles:
+  - roles/install_docker_ce
+  - roles/deploy_akraino_rc
+
