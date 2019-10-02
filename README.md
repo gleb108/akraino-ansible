@@ -7,12 +7,14 @@ Install awscli and boto
 
 
 put this in your ~/.boto files
+~~~
 [Boto]
 use_endpoint_heuristics = True
-
----
+~~~
 
 setup AWS credentials 
+
+---
 
 Deployment stages
 
